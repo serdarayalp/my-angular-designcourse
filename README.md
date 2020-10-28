@@ -32,3 +32,25 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Mehr: https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course
 
 API: https://api.openbrewerydb.org/breweries
+
+********************************************************************
+
+Deployment
+
+Let's say that we're happy with our app and we want to deploy it.
+
+We first have to create a production build with the Angular CLI. Visit the console and issue the following command:
+
+> ng build --prod
+
+This will create a /dist folder. We can even run it locally with something like lite-server. To install lite-server:
+
+> npm i -g lite-server
+
+Hop into the folder: myapp\dist\myapp\ and run:
+
+> lite-server
+
+This will launch the production build in the browser!
+
+At this point, you have a number of options for deploying it (Github Pages, Netlify, your own hosting, etc..).
