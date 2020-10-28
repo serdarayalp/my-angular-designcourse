@@ -30,3 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 *****************************************************************
 
 Mehr: https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course
+
+API: https://api.openbrewerydb.org/breweries
