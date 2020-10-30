@@ -29,10 +29,12 @@
   [style.background-color]="clickCounter > 4 ? 'yellow' : 'lightgray'"
 ></div>
 
-<div class="play-container" [class.active]="clickCounter > 4"></div>
+<!-- <div class="play-container" [class.active]="clickCounter > 4"></div> -->
 
 <!-- You can specify [ngStyle]="someObject" instead, if you wish to specify that logic in the 
   component instead of the template. -->
+
+<!--
 <div
   class="play-container"
   [ngStyle]="{
@@ -40,5 +42,8 @@
     border: clickCounter > 4 ? '4px solid black' : 'none'
   }"
 ></div>
+-->
 
+<!--
 <div class="play-container" [ngClass]="setClasses()"></div>
+-->

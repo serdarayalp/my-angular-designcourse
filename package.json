@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "ng b --prod --base-href https://serdarayalp.github.io/my-angular-designcourse-ng8/ && npx ngh --dir=dist/my-angular-designcourse-ng8"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
